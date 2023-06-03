@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Top-Header -->
+  <div class="bg-header">
+    <ul class="top-header">
+      <li><a href="#" class="text">Home</a></li>
+      <li><a href="#" class="text">About Us</a></li>
+      <li><a href="#" class="text">Privacy Policy</a></li>
+      <li><a href="#" class="text">Contact Us</a></li>
+      <div class="right"></div>
+      <div class="icon-header">
+        <li><a href="#" class="icon-top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg> </a></li>
+        <li><a href="#" class="icon-top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+            </svg></a></li>
+        <li><a href="#" class="icon-top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+              <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+            </svg></a></li>
+        <li><a href="#" class="icon-top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+              <path
+                d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+            </svg></a></li>
+      </div>
+    </ul>
+  </div>
+  <!-- Header -->
+  
+    <div class="header" id="myHeader">
+      <div class="pad-head"></div>
+      <ul class="menu-main">
+        <li><a href="#" class="menu-img"><img src="public/images/Logo.png" class="img-header" alt="" width="165px"
+              height="40px"></a></li>
+        <li><a class="item0" href="#">HOME</a></li>
+        <li><a class="item1" href="#">FEATURES&nbsp;&or;</a></li>
+        <li><a class="item2" href="#">MEGA MENU&nbsp;&or;</a></li>
+        <li><a class="item3" href="#">MEGA TABS&nbsp;&or;</a></li>
+        <li><a class="item4" href="#">TIPOGRAPHY</a></li>
+        <li><a class="item5" href="#"><b>SHORTCODES</b></a></li>
+
+        <div class="header-seach">
+          <a href="#" class="icon-seach"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg></a>
+        </div>
+      </ul>
+    </div>
+  
+  <br>
+  <div class="container-ller">
+    <div class="main-trending">
+      <div class="treding">TRENDING > <a href="#" class="text-trending">Apple Watch Series 5 is the Best One Yet By
+          Consumer </a></div>
+    </div>
+  </div>
+  <br>
+  <!-- Banner -->
+  <div class="all">
+    <a href="#" class="box-demos">
+      <div class="demos stay">
+        <div class="img-demo">
+          <svg enable-background="new 0 0 24 24" fill="currentColor" height="24" viewBox="0 0 24 24" width="24"
+            xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <rect fill="none" height="24" width="24"></rect>
+              <rect fill="none" height="24" width="24"></rect>
+            </g>
+            <g>
+              <path
+                d="M17,4c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2V4z M2,20c0,1.1,0.9,2,2,2h9c1.1,0,2-0.9,2-2V4c0-1.1-0.9-2-2-2H4 C2.9,2,2,2.9,2,4V20z M21,18c0.83,0,1.5-0.67,1.5-1.5v-9C22.5,6.67,21.83,6,21,6V18z">
+              </path>
+            </g>
+          </svg>
+        </div>
+        <div class="txt-demo">Demos</div>
+      </div>
+    </a>
+    <a href="#" class="box-views">
+      <div class="view">
+        <div class="img-view">
+          <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0V0z" fill="none"></path>
+            <path
+              d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-4.65 4.65c-.2.2-.51.2-.71 0L7 13h3V9h4v4h3z">
+            </path>
+          </svg>
+        </div>
+        <div class="txt-demo">Buy Nows</div>
+      </div>
+    </a>
+  </div>
+  <div class="container-ller">
+    <div class="bg-content">
+      <div class="container">
+        <div class="row g-2">
+          <div class="pad"></div>
+          <div class="col-6">
+            <a href="#" class="box-hinh1">
+              <div class="hinh1-1"></div>
+              <div class="domo1">
+                <div class="apple">APPLE</div>
+                <div class="apple1">11 of Best Laptops Evaluated Based on <br> Budget</div>
+                <div class="apple2">
+                  <span class="apple2-1">by</span>
+                  <span class="apple2-2">Join Doe</span>
+                  <span class="apple2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="box-hinh2">
+              <div class="hinh2-2"></div>
+              <div class="domo2">
+                <div class="dongho">LAPTOPS</div>
+                <div class="dongho1">Apple Watch Series 5 is the Best One Yet By Consumer</div>
+                <div class="dongho2">August 02, 2021</div>
+              </div>
+            </a>
+            <div class="row g-2">
+              <div class="pad1"></div>
+              <div class="col-6">
+                <a href="#" class="box-hinh3">
+                  <div class="hinh3-3"></div>
+                  <div class="domo3">
+                    <div class="dienthoa">LAPTOPS</div>
+                    <div class="dienthoai1">Here’s What People Think of iOS <br> 13 New Dark Mode</div>
+                    <div class="dienthoai2">August 02, 2021</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="box-hinh4">
+                  <div class="hinh4-4"></div>
+                  <div class="domo4">
+                    <div class="laptop">APPLE</div>
+                    <div class="laptop1">18 Practices for Building <br> Responsive Web Applications</div>
+                    <div class="laptop2">August 02, 2021</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- Content -->
+  <div class="pad2"></div>
+  <div class="container-ller">
+    <div class="row">
+      <div class="col-8">
+        <div class="bg-content-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="text-worldnew">WORLD NEWS</div>
+              </div>
+              <div class="col-2">
+                <div class="pad7"></div>
+                <a href="#" class="viewall">View all</a>
+              </div>
+            </div>
+            <span class="line"></span>
+            <span class="line-short"></span>
+          </div>
+          <!-- Content Covit -->
+          <div class="pad3"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="box-covit">
+                  <div class="covit"></div>
+                  <div class="domo-covit">
+                    <div class="healthy">HEALTHY</div>
+                    <div class="healthy1">How to Get COVID-19 Related <br> Alerts on Your Phone</div>
+                    <div class="healthy2">
+                      <span class="healthy2-1">by</span>
+                      <span class="healthy2-2">John Doe</span>
+                      <span class="healthy2-3">July 31, 2021</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-covit-1">
+                      <div class="covit-1"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">How We Know Disinfectants <br> Should Kill the Covid-19</a>
+                    <div class="covit2">July 31, 2021</div>
+                  </div>
+                </div>
+                <div class="pad4"></div>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-covit-2">
+                      <div class="covit-2"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Car Safety Tips to Protect you and <br> your Family</a>
+                    <div class="covit2">July 31, 2021</div>
+                  </div>
+                </div>
+                <br><br><br><br>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-covit-3">
+                      <div class="covit-3"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Know-How to Protect Your Health <br> When Going Out</a>
+                    <div class="covit2">July 31, 2021</div>
+                  </div>
+                </div>
+                <div class="pad4"></div>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-covit-4">
+                      <div class="covit-4"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Tracking Public and Private <br> Response to the COVID-19</a>
+                    <div class="covit2">July 31, 2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pad2"></div>
+        <div class="review">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="text-worldnew">REVIEW</div>
+              </div>
+              <div class="col-2">
+                <div class="pad7"></div>
+                <a href="#" class="viewall">View all</a>
+              </div>
+            </div>
+            <span class="line"></span>
+            <span class="line-short"></span>
+            <!-- Review picture -->
+            <div class="pad3"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-rv">
+                  <div class="review-1"></div>
+                  <div class="domo-rv-1">
+                    <div class="consoles">CONSOLES</div>
+                  </div>
+                </a>
+                <a href="#" class="a">
+                  <div class="text-rv">The Best Xbox 360 Co-Op <br> Offline Split-Screen Games</div>
+                </a>
+                <div class="text-rv-1">July 31, 2021</div>
+              </div>
+              <!-- hinh 2 -->
+              <div class="col-3">
+                <a href="#" class="box-rv-2">
+                  <div class="review-2"></div>
+                  <div class="domo-rv-2">
+                    <div class="consoles">CONSOLES</div>
+                  </div>
+                </a>
+                <a href="#" class="a">
+                  <div class="text-rv-2">Great Local Multiplayer <br> Games to Play on PS5</div>
+                </a>
+                <div class="text-rv-2-1">July 31, 2021</div>
+              </div>
+              <!-- hinh 3 -->
+              <div class="col-4">
+                <a href="#" class="box-rv-3">
+                  <div class="review-3"></div>
+                  <div class="domo-rv-3">
+                    <div class="consoles">CONSOLES</div>
+                  </div>
+                </a>
+                <a href="#" class="a">
+                  <div class="text-rv-3">13 PlayStation 5 Tips to <br> Get the Most Out</div>
+                </a>
+                <div class="text-rv-3-1">July 31, 2021</div>
+              </div>
+              <!-- hinh 4 -->
+              <div class="pad6"></div>
+              <div class="row">
+                <div class="col-4">
+                  <a href="#" class="box-rv-4">
+                    <div class="review-4"></div>
+                    <div class="domo-rv-4">
+                      <div class="consoles">CONSOLES</div>
+                    </div>
+                  </a>
+                  <a href="#" class="a">
+                    <div class="text-rv-4">The Best Wired and <br> Wireless Gaming Headset</div>
+                  </a>
+                  <div class="text-rv-4-1">July 31, 2021</div>
+                </div>
+                <!-- hinh 5 -->
+                <div class="col-4">
+                  <a href="#" class="box-rv-5">
+                    <div class="review-5"></div>
+                    <div class="domo-rv-5">
+                      <div class="consoles">CONSOLES</div>
+                    </div>
+                  </a>
+                  <a href="#" class="a">
+                    <div class="text-rv-5">Lessons Learned Selling <br> Cheap Electronics</div>
+                  </a>
+                  <div class="text-rv-5-1">July 31, 2021</div>
+                </div>
+                <!-- hinh 6 -->
+                <div class="col-4">
+                  <a href="#" class="box-rv-6">
+                    <div class="review-6"></div>
+                    <div class="domo-rv-6">
+                      <div class="consoles">CONSOLES</div>
+                    </div>
+                  </a>
+                  <a href="#" class="a">
+                    <div class="text-rv-6">13 PlayStation 5 Tips to <br> Get the Most Out</div>
+                  </a>
+                  <div class="text-rv-6-1">July 31, 2021</div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+        <!-- gadgets va laptops -->
+        <div class="pad2"></div>
+        <div class="row">
+          <div class="col-6">
+            <div class="bg-gadgets">
+              <div class="container">
+                <div class="row">
+                  <div class="col-9">
+                    <div class="text-worldnew">GADGETS</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="pad7"></div>
+                    <a href="#" class="viewall-1">View all</a>
+                  </div>
+                </div>
+                <span class="line-1"></span>
+                <span class="line-short"></span>
+                <div class="pad3"></div>
+                <a href="#" class="box-gg">
+                  <div class="pic-gg"></div>
+                  <div class="domo-gg">
+                    <div class="gadget">GADGETS</div>
+                    <div class="gadgets1">6 Wealth Building Alternatives <br> Without Buying Stocks</div>
+                    <div class="gadgets2">
+                      <span class="gadgets2-1">by</span>
+                      <span class="gadgets2-2">Join Doe</span>
+                      <span class="gadgets2-3"> - July 31, 2021</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="pad8"></div><br>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-pp-1">
+                      <div class="gg-pic-1"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Start a Digital Marketing <br> Website for your Service</a>
+                    <div class="covit2">July 31, 2021</div>
+                  </div>
+                </div>
+                <div class="pad9"></div>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-pp-1">
+                      <div class="gg-pic-2"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Part-time Trading on Forex as <br> an Alternative Income</a>
+                    <div class="covit2">July 31, 2021</div>
+                  </div>
+                </div>
+                <div class="pad9"></div>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-pp-1">
+                      <div class="gg-pic-3"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Catch the Best iPhone X Deals <br> Plus Your Favorite gadgets</a>
+                    <div class="covit2">July 31, 2021</div>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="bg-gadgets">
+              <div class="container">
+                <div class="row">
+                  <div class="col-9">
+                    <div class="text-worldnew">LAPTOPS</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="pad7"></div>
+                    <a href="#" class="viewall-1">View all</a>
+                  </div>
+                </div>
+                <span class="line-1"></span>
+                <span class="line-short"></span>
+                <div class="pad3"></div>
+                <a href="#" class="box-gg">
+                  <div class="pic-lt"></div>
+                  <div class="domo-gg">
+                    <div class="gadget">GADGETS</div>
+                    <div class="gadgets1">11 of Best Laptops Evaluated <br> Based on Budget</div>
+                    <div class="gadgets2">
+                      <span class="gadgets2-1">by</span>
+                      <span class="gadgets2-2">Join Doe</span>
+                      <span class="gadgets2-3"> - July 31, 2021</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="pad8"></div><br>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-pp-1">
+                      <div class="lt-pic-1"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Apple Watch Series 5 is the <br> Best One Yet By Consumer</a>
+                    <div class="covit2">August 02, 2021</div>
+                  </div>
+                </div>
+                <div class="pad9"></div>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-pp-1">
+                      <div class="lt-pic-2"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">Here’s What People Think of <br> iOS 13 New Dark Mode</a>
+                    <div class="covit2">August 02, 2021</div>
+                  </div>
+                </div>
+                <div class="pad9"></div>
+                <div class="row">
+                  <div class="col-3">
+                    <a href="#" class="box-pp-1">
+                      <div class="lt-pic-3"></div>
+                    </a>
+                  </div>
+                  <div class="col-9">
+                    <a href="#" class="covit1">18 Practices for Building <br> Responsive Web Applications</a>
+                    <div class="covit2">August 02, 2021</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Lastert Post -->
+        <div class="pad2"></div>
+        <div class="bg-lastest-port">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="text-worldnew">LASTEST PORT</div>
+              </div>
+              <div class="col-2">
+                <div class="pad7"></div>
+                <a href="#" class="viewall-1">View all</a>
+              </div>
+            </div>
+            <span class="line"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <!-- hinh 1 -->
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="lp-pic-1"></div>
+                  <div class="domo-trl-1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">11 of Best Laptops Evaluated Based on <br> Budget</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 2 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="lp-pic-2"></div>
+                  <div class="domo-trl-1">
+                    <div class="lp-1">LAPTOPS</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">Apple Watch Series 5 is the Best One Yet By <br> Consumer</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 3 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="lp-pic-3"></div>
+                  <div class="domo-trl-1">
+                    <div class="lp-1">LAPTOPS</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">Here’s What People Think of iOS 13 New Dark <br> Mode</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 4 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="lp-pic-4"></div>
+                  <div class="domo-trl-1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">18 Practices for Building Responsive Web <br> Applications</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 5 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="lp-pic-5"></div>
+                  <div class="domo-trl-1">
+                    <div class="lp-1">LAPTOPS</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">Opera Browser Lets You Apply Dark Mode to <br> Web Page</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 6 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="lp-pic-6"></div>
+                  <div class="domo-trl-1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">Apple Macbook Pro is the Best One Yet By <br> Consumer</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- Load More -->
+            <div class="pad10"></div>
+            <a href="#" class="bg-load">
+              <div class="text-load">Load More &or;</div>
+            </a>
+          </div>
+        </div>
+        <!-- VIDEOS -->
+        <div class="pad2"></div>
+        <div class="bg-video">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="text-video">VIDEOS</div>
+              </div>
+              <div class="col-2">
+                <div class="pad7"></div>
+                <a href="#" class="viewall-1">View all</a>
+              </div>
+            </div>
+            <span class="line"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="box-video">
+                  <div class="video-pic-1"></div>
+                  <div class="domo1-vd">
+                    <div class="vd">GAMES</div>
+                    <div class="vd-1">Mortal Kombat Makes Difficulty <br> Adjustments</div>
+                    <div class="vd-2">
+                      <span class="pp-apple2-1">by</span>
+                      <span class="pp-apple2-2">Join Doe</span>
+                      <span class="pp-apple2-3"> - July 31, 2021</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6">
+                <!-- hinh 2 -->
+                <div class="row">
+                  <div class="col-5">
+                    <a href="#" class="box-vd-1">
+                      <div class="vd-pic-1"></div>
+                      <a href="#" class="a">
+                        <div class="text-vd">This Trailer Explores The Dangers Of The <br> Open World</div>
+                      </a>
+                      <div class="text-trl-1">July 31, 2021</div>
+                    </a>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="box-vd-2">
+                      <div class="vd-pic-3"></div>
+                      <a href="#" class="a">
+                        <div class="text1-vd">This Trailer Explores <br> The Dangers Of The <br> Open World</div>
+                      </a>
+                      <div class="text-vd-1">July 31, 2021</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="pad3"></div><br>
+                <div class="row">
+                  <div class="col-5">
+                    <a href="#" class="box-vd-1">
+                      <div class="vd-pic-4"></div>
+                      <a href="#" class="a">
+                        <div class="text-vd">This Trailer Explores The Dangers Of The <br> Open World</div>
+                      </a>
+                      <div class="text-trl-1">July 31, 2021</div>
+                    </a>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="box-vd-2">
+                      <div class="vd-pic-5"></div>
+                      <a href="#" class="a">
+                        <div class="text1-vd">This Trailer Explores <br> The Dangers Of The <br> Open World</div>
+                      </a>
+                      <div class="text-vd-2">July 31, 2021</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CONSOLES -->
+        <div class="pad2"></div>
+        <div class="bg-consoles">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="text-worldnew">CONSOLES</div>
+              </div>
+              <div class="col-2">
+                <div class="pad7"></div>
+                <a href="#" class="viewall-1">View all</a>
+              </div>
+            </div>
+            <span class="line"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <!-- hinh 1 -->
+            <div class="row">
+              <div class="col-5">
+                <a href="#" class="box-cl-1">
+                  <div class="pic-cl-1"></div>
+                  <div class="domo-trl-1">
+                    <div class="cl-1">CONSOLES</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text-cl">The Best Xbox 360 Co-Op Offline <br> Split-Screen Games</div>
+                  </a>
+                  <div class="text-cl2">
+                    <span class="text-cl2-1">by</span>
+                    <span class="text-cl2-2">Join Doe</span>
+                    <span class="text-cl2-3"> - August 02, 2021</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="box-cl-2">
+                  <div class="pic-cl-2"></div>
+                  <div class="domo-trl-1">
+                    <div class="cl-1">CONSOLES</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text2-cl">Great Local Multiplayer Games to Play <br> on PS5</div>
+                  </a>
+                  <div class="text2-cl2">
+                    <span class="text-cl2-1">by</span>
+                    <span class="text-cl2-2">Join Doe</span>
+                    <span class="text-cl2-3"> - August 02, 2021</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- hinh 3 -->
+            <div class="pad13"></div>
+            <div class="row">
+              <div class="col-5">
+                <a href="#" class="box-cl-1">
+                  <div class="pic-cl-3"></div>
+                  <div class="domo-trl-1">
+                    <div class="cl-1">CONSOLES</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text-cl">13 PlayStation 5 Tips to Get the Most <br> Out</div>
+                  </a>
+
+                  <div class="text-cl2">
+                    <span class="text-cl2-1">by</span>
+                    <span class="text-cl2-2">Join Doe</span>
+                    <span class="text-cl2-3"> - August 02, 2021</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="box-cl-2">
+                  <div class="pic-cl-4"></div>
+                  <div class="domo-trl-1">
+                    <div class="cl-1">CONSOLES</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text2-cl">Guide to a few of Best Portable <br> Monitors for PS5</div>
+                  </a>
+                  <div class="text2-cl2">
+                    <span class="text-cl2-1">by</span>
+                    <span class="text-cl2-2">Join Doe</span>
+                    <span class="text-cl2-3"> - August 02, 2021</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="pad2"></div>
+        <div class="bg-mobile">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="text-worldnew">MOBILE</div>
+              </div>
+              <div class="col-2">
+                <div class="pad7"></div>
+                <a href="#" class="viewall-1">View all</a>
+              </div>
+            </div>
+            <span class="line"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <!-- hinh 1 -->
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="mb-pic-1"></div>
+                  <div class="domo-trl-1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">Here’s What People Think of iOS 13 New Dark <br> Mode</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 2 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="mb-pic-2"></div>
+                  <div class="domo-trl-1">
+                    <div class="lp-1">LAPTOPS</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">6 Wealth Building Alternatives Without Buying <br> Stocks</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 3 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="mb-pic-3"></div>
+                  <div class="domo-trl-1">
+                    <div class="lp-1">LAPTOPS</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">Part-time Trading on Forex as an Alternative <br> Income</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+            <!-- hinh 4 -->
+            <div class="pad10"></div>
+            <div class="row">
+              <div class="col-4">
+                <a href="#" class="box-lp-1">
+                  <div class="mb-pic-4"></div>
+                  <div class="domo-trl-1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-lp">Catch the Best iPhone X Deals Plus Your <br> Favorite gadgets</a>
+                <div class="text-lp1">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry.
+                  Lorem Ipsum has been…</div>
+                <div class="text-lp2">
+                  <span class="text-lp2-1">by</span>
+                  <span class="text-lp2-2">Join Doe</span>
+                  <span class="text-lp2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Car -->
+        <div class="pad2"></div>
+        <div class="bg-car">
+          <div class="container">
+            <div class="row">
+              <div class="col-10">
+                <div class="text-worldnew">CAR NEWS</div>
+              </div>
+              <div class="col-2">
+                <div class="pad7"></div>
+                <a href="#" class="viewall-1">View all</a>
+              </div>
+            </div>
+            <span class="line"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <a href="#" class="box-car">
+              <div class="car-pic-1"></div>
+              <div class="domo-car">
+                <div class="apple">BMW</div>
+                <div class="car1">What’s in the Most Recent Upgrade Package</div>
+                <div class="car2">
+                  <span class="car2-1">by</span>
+                  <span class="car2-2">Join Doe</span>
+                  <span class="car2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </a>
+            <!--  -->
+            <div class="pad14"></div>
+            <div class="row">
+              <div class="col-3">
+                <a href="#" class="box-car-1">
+                  <div class="car-pic-2"></div>
+                  <div class="domo-car1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="pad15"></div>
+                    <div class="text-trl">Elegant Business Style Cars for Heavy Traffic</div>
+                  </a>
+                  <div class="text-trl-1">July 31, 2021</div>
+                </a>
+              </div>
+              <!-- hinh 2 -->
+              <div class="col-4">
+                <a href="#" class="box-car-2">
+                  <div class="car-pic-3"></div>
+                  <div class="domo-car1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="pad15"></div>
+                    <div class="text2-car">Why Navigation System Doesn’t Work Always</div>
+                  </a>
+                  <div class="text-car-2">July 31, 2021</div>
+                </a>
+              </div>
+              <!-- hinh 3 -->
+              <div class="col-4">
+                <a href="#" class="box-car-3">
+                  <div class="car-pic-4"></div>
+                  <div class="domo-car1">
+                    <div class="travel-1">APPLE</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="pad15"></div>
+                    <div class="text3-car">Do You Like the Maneuvers of Your Car?</div>
+                  </a>
+                  <div class="text-car-3">July 31, 2021</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--  -->
+      <div class="col-4">
+        <div class="follow-us">
+          <div class="container">
+            <div class="text-follow-us">FOLLOW US</div>
+            <span class="line-1"></span>
+            <span class="line-short"></span>
+            <!--  -->
+            <div class="follow-us-btn">
+              <div class="pad3"></div>
+              <div class="row g-2">
+                <div class="col-6">
+                  <a href="#" class="facebook">
+                    <div class="box-face">
+                      <div class="row g-2">
+                        <div class="col-3">
+                          <div class="box-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                              fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                              <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg></div>
+                        </div>
+                        <div class="col-9">
+                          <div class="text-btn-ct">Facebook</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a href="#" class="twitter">
+                    <div class="box-face">
+                      <div class="row g-2">
+                        <div class="col-3">
+                          <div class="box-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                              fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                              <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg></div>
+                        </div>
+                        <div class="col-9">
+                          <div class="text-btn-ct">Twitter</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="pad5"></div>
+              <!--  -->
+              <div class="row g-2">
+                <div class="col-6">
+                  <a href="#" class="youtube">
+                    <div class="box-face">
+                      <div class="row g-2">
+                        <div class="col-3">
+                          <div class="box-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                              fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                              <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                            </svg></div>
+                        </div>
+                        <div class="col-9">
+                          <div class="text-btn-ct">Youtube</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a href="#" class="instagram">
+                    <div class="box-face">
+                      <div class="row g-2">
+                        <div class="col-3">
+                          <div class="box-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                              fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                              <path
+                                d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+                            </svg></div>
+                        </div>
+                        <div class="col-9">
+                          <div class="text-btn-ct">Instagram</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pad2"></div>
+        <div class="popular-posts">
+          <div class="container">
+            <div class="text-follow-us">Popular Posts</div>
+            <span class="line-1"></span>
+            <span class="line-short"></span>
+            <!--  -->
+            <div class="pad3"></div>
+            <a href="#" class="box-pp-laptop">
+              <div class="pp-hinh1"></div>
+              <div class="pp-domo">
+                <div class="pp-apple">APPLE</div>
+                <div class="pp-apple1">11 of Best Laptops Evaluated <br> Based on Budget</div>
+                <div class="pp-apple2">
+                  <span class="pp-apple2-1">by</span>
+                  <span class="pp-apple2-2">Join Doe</span>
+                  <span class="pp-apple2-3"> - August 02, 2021</span>
+                </div>
+              </div>
+            </a>
+            <!--  -->
+            <div class="pad6"></div>
+            <div class="row">
+              <div class="col-3">
+                <a href="#" class="box-pp-1">
+                  <div class="pp-pic-1"></div>
+                </a>
+              </div>
+              <div class="col-9">
+                <a href="#" class="covit1">How We Know <br> Disinfectants <br> Should Kill the Covid-19</a>
+                <div class="pp-pic-fix">July 31, 2021</div>
+              </div>
+            </div>
+            <br><br><br><br>
+            <div class="pad"></div>
+            <div class="row">
+              <div class="col-3">
+                <a href="#" class="box-pp-3">
+                  <div class="pp-pic-3"></div>
+                </a>
+              </div>
+              <div class="col-9">
+                <a href="#" class="covit1">Apple Watch Series 5 is <br> the Best One Yet By <br> Consumer</a>
+                <div class="pp-pic-fix">August 02, 2021</div>
+              </div>
+            </div>
+            <div class="pad4"></div>
+            <div class="row">
+              <div class="col-3">
+                <a href="#" class="box-pp-2">
+                  <div class="pp-pic-2"></div>
+                </a>
+              </div>
+              <div class="col-9">
+                <a href="#" class="covit1">Here’s What People Think <br> of iOS 13 New Dark Mode</a>
+                <div class="covit2">August 02, 2021</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TRAVER -->
+        <div class="pad2"></div>
+        <div class="travel">
+          <div class="container">
+            <div class="text-follow-us">TRAVEL</div>
+            <span class="line-1"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="box-trl-1">
+                  <div class="trl-pic-1"></div>
+                  <div class="domo-trl-1">
+                    <div class="travel-1">TRAVEL</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text-trl">Top 10 <br> Snowboarding <br> Resorts For <br> Beginners</div>
+                  </a>
+                  <div class="text-trl-1">July 31, 2021</div>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="box-trl-2">
+                  <div class="trl-pic-2"></div>
+                  <div class="domo-trl-2">
+                    <div class="travel-2">TRAVEL</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text-trl">Why It’s Better to <br> Travel with Friends</div>
+                  </a>
+                  <div class="text-trl-1">July 31, 2021</div>
+                </a>
+              </div>
+            </div>
+            <!--  -->
+            <div class="pad5"></div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="box-trl-3">
+                  <div class="trl-pic-3"></div>
+                  <div class="domo-trl-3">
+                    <div class="travel-3">TRAVEL</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text-trl">The 5 Best Beach <br> Destinations in The <br> World</div>
+                  </a>
+                  <div class="text-trl-1">July 31, 2021</div>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="box-trl-4">
+                  <div class="trl-pic-4"></div>
+                  <div class="domo-trl-4">
+                    <div class="travel-4">TRAVEL</div>
+                  </div>
+                  <a href="#" class="a">
+                    <div class="text-trl">5 Online Bike Rental <br> Apps with Bikes for <br> Traveller</div>
+                  </a>
+                  <div class="text-trl-1">July 31, 2021</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mail -->
+        <div class="pad2"></div>
+        <div class="bg-mail">
+          <div class="line-mail"></div>
+          <div class="pad3"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-9">
+                <div class="text-mail">Mailchimp From</div>
+              </div>
+              <div class="col-3">
+                <div class="mail">
+                </div>
+              </div>
+            </div>
+            <div class="text1-mail">Subscribe to our mailing list to get the new <br> updates.</div>
+            <div class="pad2"></div>
+            <a href="#" class="box-email">
+              <div class="email">Email Address</div>
+            </a>
+            <br><br>
+            <a href="#" class="btn-email">
+              <div class="btn-em">Subcribe</div>
+            </a>
+          </div>
+        </div>
+        <!-- Comment -->
+        <div class="pad2"></div>
+        <div class="bg-com">
+          <div class="container">
+            <div class="text-follow-us">COMMENT</div>
+            <span class="line-1"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <div class="row">
+              <div class="col-1">
+                <div class="pad11"></div>
+                <a href="#" class="box-com-1">
+                  <div class="com-pic-1"></div>
+                </a>
+              </div>
+              <div class="col-11">
+                <a href="#" class="text-com">John Doe</a>
+                <div class="text1-com">Lorem Ipsum is simply dummy text of the <br> printing a...</div>
+              </div>
+            </div>
+            <div class="pad12"></div>
+            <div class="row">
+              <div class="col-1">
+                <div class="pad11"></div>
+                <a href="#" class="box-com-1">
+                  <div class="com-pic-2"></div>
+                </a>
+              </div>
+              <div class="col-11">
+                <a href="#" class="text-com">Anonymous</a>
+                <div class="text1-com">The generated Lorem Ipsum is therefore <br> always free...</div>
+              </div>
+            </div>
+            <div class="pad12"></div>
+            <div class="row">
+              <div class="col-1">
+                <div class="pad11"></div>
+                <a href="#" class="box-com-1">
+                  <div class="com-pic-1"></div>
+                </a>
+              </div>
+              <div class="col-11">
+                <a href="#" class="text-com">John Doe</a>
+                <div class="text1-com">Lorem Ipsum is simply dummy text of the <br> printing a...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- categories -->
+        <div class="pad2"></div>
+        <div class="cate">
+          <div class="container">
+            <div class="text-follow-us">CATEGORIES</div>
+            <span class="line-1"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="gadget-cate">Gadgets</a>
+              </div>
+              <div class="col-6">
+                <div class="num">(6)</div>
+              </div>
+            </div>
+            <div class="pad7"></div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="gadget-cate">Healthy</a>
+              </div>
+              <div class="col-6">
+                <div class="num">(6)</div>
+              </div>
+            </div>
+            <div class="pad7"></div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="gadget-cate">Podcasts</a>
+              </div>
+              <div class="col-6">
+                <div class="num">(6)</div>
+              </div>
+            </div>
+            <div class="pad7"></div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="gadget-cate">Review</a>
+              </div>
+              <div class="col-6">
+                <div class="num">(6)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="pad2"></div>
+        <div class="main-tag">
+          <div class="container">
+            <div class="text-follow-us">MAIN TAGS</div>
+            <span class="line-1"></span>
+            <span class="line-short"></span>
+            <div class="pad3"></div>
+            <div class="row g-2">
+              <div class="col-2">
+                <a href="#" class="tag1">
+                  <div class="text-tag">Cars</div>
+                </a>
+              </div>
+              <div class="col-3">
+                <a href="#" class="tag2">
+                  <div class="text-tag">Gadgets</div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#" class="tag3">
+                  <div class="text-tag">Games</div>
+                </a>
+              </div>
+            </div>
+            <div class="pad16"></div>
+            <div class="row g-2">
+              <div class="col-3">
+                <a href="#" class="tag2">
+                  <div class="text-tag">Healthy</div>
+                </a>
+              </div>
+              <div class="col-3">
+                <a href="#" class="tag2">
+                  <div class="text-tag">Podcasts</div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#" class="tag3">
+                  <div class="text-tag">Reviews</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="pad2"></div>
+  <div class="ft-first">
+    <div class="container-ller">
+      <div class="row">
+        <div class="pad3"></div>
+        <div class="pad3"></div>
+        <div class="col-4">
+          <div class="text1-main-ft">CATEGORIES</div>
+          <div class="pad3"></div>
+          <div class="row">
+            <div class="col-6">
+              <a href="#" class="tx-ft">Gadgets</a>
+            </div>
+            <div class="col-6">
+              <div class="num">(6)</div>
+            </div>
+          </div>
+          <div class="pad7"></div>
+          <div class="row">
+            <div class="col-6">
+              <a href="#" class="tx-ft">Podcasts</a>
+            </div>
+            <div class="col-6">
+              <div class="num">(6)</div>
+            </div>
+          </div>
+          <div class="pad7"></div>
+          <div class="row">
+            <div class="col-6">
+              <a href="#" class="tx-ft">Review</a>
+            </div>
+            <div class="col-6">
+              <div class="num">(6)</div>
+            </div>
+          </div>
+          <div class="pad3"></div>
+          <div class="text1-main-ft">MAIN TAGS</div>
+          <div class="pad3"></div>
+          <div class="row g-2">
+            <div class="col-3">
+              <a href="#" class="ft-tag2">
+                <div class="text-tag">Gadgets</div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a href="#" class="ft-tag3">
+                <div class="text-tag">Games</div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a href="#" class="ft-tag3">
+                <div class="text-tag">Healthy</div>
+              </a>
+            </div>
+            <div class="col-3">
+              <a href="#" class="ft-tag3">
+                <div class="text-tag">Podcasts</div>
+              </a>
+            </div>
+            <div class="pad16"></div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <a href="#" class="ft-tag3">
+                <div class="text-tag">Review</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="text1-main-ft">LASTEST POSTS</div>
+          <div class="pad3"></div>
+          <div class="row">
+            <div class="col-3">
+              <a href="#" class="box-pp-1">
+                <div class="ft-pic"></div>
+              </a>
+            </div>
+            <div class="col-9">
+              <a href="#" class="tx-ft1">11 of Best Laptops Evaluated Based <br> on Budget</a>
+              <div class="covit2">August 02, 2021</div>
+            </div>
+            <div class="pad9"></div>
+            <div class="col-3">
+              <a href="#" class="box-pp-1">
+                <div class="lt-pic-1"></div>
+              </a>
+            </div>
+            <div class="col-9">
+              <a href="#" class="tx-ft1">Apple Watch Series 5 is the <br> Best One Yet By Consumer</a>
+              <div class="covit2">August 02, 2021</div>
+            </div>
+          </div>
+          <div class="pad9"></div>
+          <div class="row">
+            <div class="col-3">
+              <a href="#" class="box-pp-1">
+                <div class="lt-pic-2"></div>
+              </a>
+            </div>
+            <div class="col-9">
+              <a href="#" class="tx-ft1">Here’s What People Think of <br> iOS 13 New Dark Mode</a>
+              <div class="covit2">August 02, 2021</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="text1-main-ft">POPULAR POSTS</div>
+          <div class="pad3"></div>
+          <div class="row">
+            <div class="col-3">
+              <a href="#" class="box-pp-1">
+                <div class="ft-pic"></div>
+              </a>
+            </div>
+            <div class="col-9">
+              <a href="#" class="tx-ft1">11 of Best Laptops Evaluated Based <br> on Budget</a>
+              <div class="covit2">August 02, 2021</div>
+            </div>
+            <div class="pad9"></div>
+            <div class="col-3">
+              <a href="#" class="box-pp-1">
+                <div class="lt-pic-1"></div>
+              </a>
+            </div>
+            <div class="col-9">
+              <a href="#" class="tx-ft1">Apple Watch Series 5 is the <br> Best One Yet By Consumer</a>
+              <div class="covit2">August 02, 2021</div>
+            </div>
+          </div>
+          <div class="pad9"></div>
+          <div class="row">
+            <div class="col-3">
+              <a href="#" class="box-pp-1">
+                <div class="lt-pic-2"></div>
+              </a>
+            </div>
+            <div class="col-9">
+              <a href="#" class="tx-ft1">Here’s What People Think of <br> iOS 13 New Dark Mode</a>
+              <div class="covit2">August 02, 2021</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pad2"></div>
+      <div class="pad2"></div>
+      <div class="pad2"></div>
+      <div class="line-ft"></div>
+      <div class="pad2"></div>
+      <div class="row">
+        <div class="col-2">
+          <div class="pad3"></div>
+          <div class="img-ft"></div>
+        </div>
+        <div class="col-7">
+          <div class="text-abus">
+            <div class="text1-abus">ABOUT US</div>
+            <div class="pad"></div>
+            <div class="text2-abus">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              <br> Ipsum has been the industry's.
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="ft-face">
+            <a href="#" class="ft-box-face">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+            </a>
+          </div>
+          <div class="ft-twi">
+            <a href="#" class="ft-box-twi">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg>
+            </a>
+          </div>
+          <div class="ft-you">
+            <a href="#" class="ft-box-you">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+              </svg>
+            </a>
+          </div>
+          <div class="ft-ins">
+            <a href="#" class="ft-box-ins">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+              </svg>
+            </a>
+          </div>
+          <div class="ft-pin">
+            <a href="#" class="ft-box-pin">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pad2"></div>
+    <div class="ft-second">
+      <div class="container-ller">
+        <div class="row">
+          <div class="col-8">
+            <div class="text-ft-s">
+              Design by - <a href="#" class="tx-ft-s">Pro Blogger Templates</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="ft-home">
+              <a href="#" class="txt-ft-home">Home</a>
+              <a href="#" class="txt-ft-home">Abous Us</a>
+              <a href="#" class="txt-ft-home">Privacy Policy</a>
+              <a href="#" class="txt-ft-home">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</html>
+</body>
